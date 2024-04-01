@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RN1a8QBEQUrAYy4hcPMdXJlZnZMKx+3H3SJerTLshmTk9WVWrckMycr+/2ffSWLAVGNTJdaWDYv194yRAcp7Q==",
+  "success": true,
+  "projectFilePath": "/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/Rozafa.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/Users/arlindhajdari/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/arlindhajdari/.nuget/packages/stylecop.analyzers/1.2.0-beta.556/stylecop.analyzers.1.2.0-beta.556.nupkg.sha512",
+    "/Users/arlindhajdari/.nuget/packages/stylecop.analyzers.unstable/1.2.0.556/stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512"
+  ],
+  "logs": []
+}

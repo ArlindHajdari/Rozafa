@@ -1,0 +1,15 @@
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/bin/Debug/net8.0/Rozafa.Application.deps.json
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/bin/Debug/net8.0/Rozafa.Application.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/bin/Debug/net8.0/Rozafa.Application.pdb
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/bin/Debug/net8.0/Rozafa.Domain.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/bin/Debug/net8.0/Rozafa.Domain.pdb
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.csproj.AssemblyReference.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.AssemblyInfoInputs.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.AssemblyInfo.cs
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.csproj.CoreCompileInputs.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.csproj.CopyComplete
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/refint/Rozafa.Application.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/Rozafa.Application.pdb
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Application/obj/Debug/net8.0/ref/Rozafa.Application.dll

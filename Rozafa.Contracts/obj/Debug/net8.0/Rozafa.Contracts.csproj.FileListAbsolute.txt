@@ -1,0 +1,12 @@
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/bin/Debug/net8.0/Rozafa.Contracts.deps.json
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/bin/Debug/net8.0/Rozafa.Contracts.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/bin/Debug/net8.0/Rozafa.Contracts.pdb
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.csproj.AssemblyReference.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.AssemblyInfoInputs.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.AssemblyInfo.cs
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.csproj.CoreCompileInputs.cache
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/refint/Rozafa.Contracts.dll
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/Rozafa.Contracts.pdb
+/Users/arlindhajdari/Documents/CSharp/Rozafa/Rozafa.Contracts/obj/Debug/net8.0/ref/Rozafa.Contracts.dll

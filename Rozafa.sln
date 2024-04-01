@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozafa.API", "Rozafa.API\Rozafa.API.csproj", "{25F26529-4648-4C5E-9327-577079BC69D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozafa.Application", "Rozafa.Application\Rozafa.Application.csproj", "{6BBA70FA-58F1-4B01-894B-4AEA4716854E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozafa.Contracts", "Rozafa.Contracts\Rozafa.Contracts.csproj", "{298177BE-5D61-4834-9F40-1BBB85F444A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozafa.Domain", "Rozafa.Domain\Rozafa.Domain.csproj", "{3241FCCF-B81B-40A5-A5F0-93D119F9605E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozafa.Infrastructure", "Rozafa.Infrastructure\Rozafa.Infrastructure.csproj", "{C949C1DC-4E20-4C3B-B55D-EB89A0BDF199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F26529-4648-4C5E-9327-577079BC69D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F26529-4648-4C5E-9327-577079BC69D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F26529-4648-4C5E-9327-577079BC69D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F26529-4648-4C5E-9327-577079BC69D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBA70FA-58F1-4B01-894B-4AEA4716854E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBA70FA-58F1-4B01-894B-4AEA4716854E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBA70FA-58F1-4B01-894B-4AEA4716854E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBA70FA-58F1-4B01-894B-4AEA4716854E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298177BE-5D61-4834-9F40-1BBB85F444A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298177BE-5D61-4834-9F40-1BBB85F444A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298177BE-5D61-4834-9F40-1BBB85F444A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298177BE-5D61-4834-9F40-1BBB85F444A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3241FCCF-B81B-40A5-A5F0-93D119F9605E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3241FCCF-B81B-40A5-A5F0-93D119F9605E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3241FCCF-B81B-40A5-A5F0-93D119F9605E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3241FCCF-B81B-40A5-A5F0-93D119F9605E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C949C1DC-4E20-4C3B-B55D-EB89A0BDF199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C949C1DC-4E20-4C3B-B55D-EB89A0BDF199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C949C1DC-4E20-4C3B-B55D-EB89A0BDF199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C949C1DC-4E20-4C3B-B55D-EB89A0BDF199}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+@host=http://localhost:5175
+
+POST {{host}}/customer/customer
+Content-Type: application/json
+
+{
+    "FirstName": "asd",
+    "LastName" : "", 
+    "TraceId" : "1231-1231-1231-12412"
+}
