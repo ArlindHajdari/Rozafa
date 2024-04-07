@@ -1,3 +1,7 @@
+// <copyright file="Errors.Customer.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 using ErrorOr;
 
 namespace Rozafa.Domain.Common.Errors;

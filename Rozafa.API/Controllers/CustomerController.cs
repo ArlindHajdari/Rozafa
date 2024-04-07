@@ -1,3 +1,7 @@
+// <copyright file="CustomerController.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 using MapsterMapper;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -7,7 +11,7 @@ using Rozafa.Contracts.Customer.Requests;
 namespace Rozafa.API.Controllers;
 
 [Route("Customer")]
-[Authorize]
+[AllowAnonymous]
 public class CustomerController : ApiController
 {
     private readonly IMapper _mapper;

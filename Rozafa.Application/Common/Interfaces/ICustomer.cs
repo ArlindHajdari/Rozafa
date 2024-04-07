@@ -1,3 +1,7 @@
+// <copyright file="ICustomer.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 using Rozafa.Domain.Models;
 
 namespace Rozafa.Application.Common.Interfaces;
@@ -5,5 +9,6 @@ namespace Rozafa.Application.Common.Interfaces;
 public interface ICustomer
 {
     Guid GetCustomerID();
-    bool RegisterCustomer(RegisterCustomer customer);
+
+    Task<string> RegisterCustomer(RegisterCustomer customer);
 }

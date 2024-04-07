@@ -1,3 +1,7 @@
+// <copyright file="RozafaProblemDetailsFactory.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 using System.Diagnostics;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;

@@ -1,11 +1,15 @@
+// <copyright file="ValidateBehaviour.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 using ErrorOr;
 using FluentValidation;
 using MediatR;
 
 namespace Rozafa.Application.Common.Behaviours;
 
-public class ValidateBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> 
-                                                    where TRequest : IRequest<TResponse> 
+public class ValidateBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+                                                    where TRequest : IRequest<TResponse>
                                                     where TResponse : IErrorOr
 {
     private readonly IValidator<TRequest> _validator;
@@ -14,11 +18,13 @@ public class ValidateBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest
     {
         _validator = validator;
     }
-    public async Task<TResponse> Handle(TRequest request, 
-                                        RequestHandlerDelegate<TResponse> next, 
-                                        CancellationToken cancellationToken)
+
+    public async Task<TResponse> Handle(
+        TRequest request,
+        RequestHandlerDelegate<TResponse> next,
+        CancellationToken cancellationToken)
     {
-        if(_validator is null)
+        if (_validator is null)
         {
             return await next();
         }
@@ -30,11 +36,9 @@ public class ValidateBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest
             return await next();
         }
 
-        var errors = validation.Errors.ConvertAll(x => Error.Validation
-                            (
+        var errors = validation.Errors.ConvertAll(x => Error.Validation(
                                 x.PropertyName,
-                                x.ErrorMessage
-                            ));
+                                x.ErrorMessage));
         return (dynamic)errors;
     }
 }
