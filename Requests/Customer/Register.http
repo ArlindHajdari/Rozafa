@@ -4,7 +4,7 @@ POST {{host}}/customer/customer
 Content-Type: application/json
 
 {
-    "FirstName": "asd",
+    "FirstName": "",
     "LastName" : "", 
     "TraceId" : "1231-1231-1231-12412"
 }
