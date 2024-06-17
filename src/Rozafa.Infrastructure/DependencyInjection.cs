@@ -47,7 +47,7 @@ public static class DependencyInjection
     public static IServiceCollection AddPersistence(this IServiceCollection services, ConfigurationManager config)
 #pragma warning restore SA1600 // Elements should be documented
     {
-        services.AddDbContext<RozafaDbContext>(options => options.UseSqlServer(config.GetConnectionString("Rozafa")));
+        //services.AddDbContext<RozafaDbContext>(options => options.UseSqlServer(config.GetConnectionString("Rozafa")));
 
         return services;
     }

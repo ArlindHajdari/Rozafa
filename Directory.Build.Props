@@ -1,15 +1,12 @@
 <Project>
     <PropertyGroup>
-        <TargetFramework>8.0.101</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
-            <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers;</IncludeAssets>
-        </PackageReference>
+        <PackageReference Include="StyleCop.Analyzers"/>
     </ItemGroup>
 </Project>
