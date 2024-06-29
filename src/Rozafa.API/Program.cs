@@ -18,6 +18,7 @@ var builder = WebApplication.CreateBuilder(args);
                     .AddMapping();
 
     builder.Services.AddEndpointsApiExplorer();
+@*#if (EnableSwaggerSupport)
     builder.Services.AddSwaggerGen(c =>
     {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "Rozafa API", Version = "v1" });
@@ -50,6 +51,7 @@ var builder = WebApplication.CreateBuilder(args);
             },
         });
     });
+#endif*@
     builder.Services.AddControllers();
     builder.Services.AddSingleton<ProblemDetailsFactory, RozafaProblemDetailsFactory>();
 }
@@ -63,9 +65,11 @@ var app = builder.Build();
     app.UseAuthorization();
     if (app.Environment.IsDevelopment())
     {
+@*#if (EnableSwaggerSupport)
         app.UseSwagger();
         app.UseSwaggerUI();
+#endif*@
     }
-    
+
     app.Run();
 }

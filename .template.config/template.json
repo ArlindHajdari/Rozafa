@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Arlind Hajdari",
+    "classifications": ["Web", "API"],
+    "identity": "Custome.Template",
+    "name": "Custom template",
+    "description": "Clean architecture with CQRS template",
+    "shortName" : "customtemplate",
+    "sourceName": "Rozafa",
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "Framework":{
+            "type": "parameter",
+            "description": "THe target framework of the solution",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "net6.0"
+                },
+                {
+                    "choice": "net8.0"
+                },
+                {
+                    "choice": "net9.0"
+                }
+            ],
+            "defaultValue": "net8.0",
+            "replaces": "{TargetFramework}"
+        },
+        "EnableSwaggerSupport":{
+            "type": "parameter",
+            "description": "Add swagger support",
+            "datatype":"bool",
+            "defaultValue": "true"
+        },
+        "IncludeDevAppSettings":{
+            "type": "parameter",
+            "description": "Add application.Development.json",
+            "datatype":"bool",
+            "defaultValue": "true"
+        },
+        "sources":[
+            {
+                "modifiers":[
+                    {
+                        "condition": "(!IncludeDevAppSettings)",
+                        "exclude":[
+                            "src/Rozafa.API/application.Development.json"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
